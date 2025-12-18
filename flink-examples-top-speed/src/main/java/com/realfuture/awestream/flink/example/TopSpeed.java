@@ -7,10 +7,10 @@
  * written permission of the copyright owner.
  */
 
-package org.apache.streampark.flink.example;
+package com.realfuture.awestream.flink.example;
 
-import org.apache.streampark.flink.example.util.CLI;
-import org.apache.streampark.flink.example.util.CarGeneratorFunction;
+import com.realfuture.awestream.flink.example.util.CLI;
+import com.realfuture.awestream.flink.example.util.CarGeneratorFunction;
 
 import org.apache.flink.api.common.eventtime.WatermarkStrategy;
 import org.apache.flink.api.common.functions.RichMapFunction;

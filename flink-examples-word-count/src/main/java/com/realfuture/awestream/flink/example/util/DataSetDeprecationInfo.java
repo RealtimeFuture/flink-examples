@@ -7,7 +7,7 @@
  * written permission of the copyright owner.
  */
 
-package org.apache.streampark.flink.example.util;
+package com.realfuture.awestream.flink.example.util;
 
 /** The info about the deprecation of DataSet API. */
 public class DataSetDeprecationInfo {

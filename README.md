@@ -40,10 +40,10 @@ You can run the WordCount example using the following command:
 
 ```bash
 # Run with default data
-java -cp flink-examples-word-count/target/flink-examples-word-count-2.1.4.jar org.apache.streampark.flink.example.WordCount
+java -cp flink-examples-word-count/target/flink-examples-word-count-2.1.4.jar com.realfuture.awestream.flink.example.WordCount
 
 # Run with custom input and output
-java -cp flink-examples-word-count/target/flink-examples-word-count-2.1.4.jar org.apache.streampark.flink.example.WordCount --input <path/to/input> --output <path/to/output>
+java -cp flink-examples-word-count/target/flink-examples-word-count-2.1.4.jar com.realfuture.awestream.flink.example.WordCount --input <path/to/input> --output <path/to/output>
 ```
 
 ### TopSpeed
@@ -52,10 +52,10 @@ You can run the TopSpeed example using the following command:
 
 ```bash
 # Run with generated data (prints to stdout)
-java -cp flink-examples-top-speed/target/flink-examples-top-speed-2.1.4.jar org.apache.streampark.flink.example.TopSpeed
+java -cp flink-examples-top-speed/target/flink-examples-top-speed-2.1.4.jar com.realfuture.awestream.flink.example.TopSpeed
 
 # Run with file input and output
-java -cp flink-examples-top-speed/target/flink-examples-top-speed-2.1.4.jar org.apache.streampark.flink.example.TopSpeed --input <path/to/input/dir> --output <path/to/output/dir>
+java -cp flink-examples-top-speed/target/flink-examples-top-speed-2.1.4.jar com.realfuture.awestream.flink.example.TopSpeed --input <path/to/input/dir> --output <path/to/output/dir>
 ```
 
 *Note: You may need to have Flink dependencies in your classpath if running purely with `java -cp`. Alternatively, use the `flink run` command if you have a Flink cluster or distribution set up.*

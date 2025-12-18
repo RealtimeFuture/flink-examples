@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.streampark</groupId>
+        <groupId>com.realfuture</groupId>
         <artifactId>flink-examples</artifactId>
         <version>2.1.4</version>
     </parent>
@@ -56,10 +56,9 @@
                         <phase>package</phase>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
-                            <finalName>WordCount</finalName>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>org.apache.flink.examples.java.wordcount.WordCount</mainClass>
+                                    <mainClass>com.realfuture.awestream.flink.example.WordCount</mainClass>
                                 </transformer>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"></transformer>
                             </transformers>

@@ -7,7 +7,7 @@
  * written permission of the copyright owner.
  */
 
-package org.apache.streampark.flink.example.util;
+package com.realfuture.awestream.flink.example.util;
 
 import org.apache.flink.api.common.ExecutionConfig;
 import org.apache.flink.api.common.RuntimeExecutionMode;

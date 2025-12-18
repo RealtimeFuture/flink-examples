@@ -7,9 +7,9 @@
  * written permission of the copyright owner.
  */
 
-package org.apache.streampark.flink.example;
+package com.realfuture.awestream.flink.example;
 
-import org.apache.streampark.flink.example.util.WordCountData;
+import com.realfuture.awestream.flink.example.util.WordCountData;
 
 import org.apache.flink.api.common.functions.FlatMapFunction;
 import org.apache.flink.api.java.DataSet;
@@ -22,7 +22,7 @@ import org.apache.flink.util.Preconditions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static org.apache.streampark.flink.example.util.DataSetDeprecationInfo.DATASET_DEPRECATION_INFO;
+import static com.realfuture.awestream.flink.example.util.DataSetDeprecationInfo.DATASET_DEPRECATION_INFO;
 
 /**
  * Implements the "WordCount" program that computes a simple word occurrence histogram over text
